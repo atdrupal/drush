@@ -14,3 +14,11 @@ projects[purge][version] = "1.x-dev"
 projects[queue_mail][version] = "1.3"
 projects[redis][version] = "3.2"
 projects[views_content_cache][version] = "3.x-dev"
+
+; Amazon webservices
+projects[awssdk][version] = "5.x-dev"
+projects[amazons3][version] = "1.1"
+projects[awssdk][type] = library
+projects[awssdk][download][type] = git
+projects[awssdk][download][url] = https://github.com/amazonwebservices/aws-sdk-for-php.git
+projects[awssdk][download][tag] = "1.6.3"

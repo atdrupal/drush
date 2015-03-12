@@ -7,12 +7,15 @@ php:
 matrix:
     fast_finish: true
 
+env:
+  - MAKE=drupal.make
+  - MAKE=project-api.make
+  - MAKE=project-headless.make
+
 before_script:
     - export PATH="$HOME/.composer/vendor/bin:$PATH"
     - composer global require drush/drush:~7.0.0-alpha1
-    - drush make --concurrency=4 drupal.make           $(pwd)/www/
-    - drush make --concurrency=4 project-api.make      $(pwd)/project-api/
-    - drush make --concurrency=4 project-headless.make $(pwd)/project-headless/
+    - drush make --concurrency=4 $MAKE $(pwd)/www/
 
 script: phpunit tests/*
 

@@ -1,0 +1,20 @@
+language: php
+
+php:
+    - 5.4
+    - 5.5
+
+matrix:
+    fast_finish: true
+
+before_script:
+    - export PATH="$HOME/.composer/vendor/bin:$PATH"
+    - composer global require drush/drush:~7.0.0-alpha1
+    - drush make --concurrency=4 drupal.make           $(pwd)/www/
+    - drush make --concurrency=4 project-api.make      $(pwd)/project-api/
+    - drush make --concurrency=4 project-headless.make $(pwd)/project-headless/
+
+script: phpunit tests/*
+
+notifications:
+  email: false

@@ -1,7 +1,6 @@
-## Drush make
+## Drush make [![Build Status](https://travis-ci.org/atdrupal/make.svg)](https://travis-ci.org/atdrupal/make)
 
 This project provide base make files for your Drupal projects.
-
 
     git clone https://github.com/atdrupal/make.git drupal-make
 

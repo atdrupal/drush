@@ -10,11 +10,11 @@ api = 2
 projects[drupal][version] = "7.x-dev"
 
 ; Include base projects
-includes[core]         = "drupal-core.make"
-includes[admin]        = "drupal-admin.make"
-includes[api]          = "drupal-api.make"
-includes[performance]  = "drupal-performance.make"
-includes[themes]       = "drupal-theme.make"
+includes[core]         = "base/drupal-core.make"
+includes[admin]        = "base/drupal-admin.make"
+includes[api]          = "base/drupal-api.make"
+includes[performance]  = "base/drupal-performance.make"
+includes[themes]       = "base/drupal-theme.make"
 
 ; Modules
 projects[api][version] = "1.9"

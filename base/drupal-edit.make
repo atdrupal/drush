@@ -8,6 +8,7 @@ projects[ckeditor][version] = "1.16"
 projects[imce][version] = "1.9"
 projects[quickedit][version] = "1.1"
 projects[quickedit_tab][version] = "1.1"
+projects[wysiwyg][version] = "2.x-dev"
 
 ; Libraries
 libraries[json2][download][type] = get

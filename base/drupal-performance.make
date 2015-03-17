@@ -4,6 +4,7 @@ api = 2
 projects[drupal][version] = "7.x-dev"
 
 projects[blockcache_alter][version] = "1.x-dev"
+projects[cache_actions][version] = "2.x-dev"
 projects[cdn][version] = "2.6"
 projects[entitycache][version] = "1.2"
 projects[expire][version] = "2.0-rc4"

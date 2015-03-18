@@ -13,9 +13,13 @@ env:
   - MAKE=project-headless.make
 
 before_script:
+    - export CLONE=$(pwd)
+    - cd ${CLONE}/scripts
+    - composer install
     - export PATH="$HOME/.composer/vendor/bin:$PATH"
     - composer global require drush/drush:~7.0.0-alpha1
-    - drush make --concurrency=4 $MAKE $(pwd)/www/
+    - drush make --concurrency=4 ${CLONE}/${MAKE} ${CLONE}/www/
+    - cd ${CLONE}
 
 script: phpunit tests/*
 

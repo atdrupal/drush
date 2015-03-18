@@ -1,6 +1,6 @@
 <?php
 
-class TestDrushMaking extends PHPUnit_Framework_TestCase
+class DrushMakingTest extends PHPUnit_Framework_TestCase
 {
     public function testMakeResults()
     {

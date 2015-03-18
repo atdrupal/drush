@@ -46,7 +46,7 @@ class IssueChecker
             $releaseMajorVersion = (int) $release->version_major;
             $releaseMinorVersion = (string) $release->version_patch;
             $validMajor = $this->projectMajorVersion == $releaseMajorVersion;
-            $validMinor = version_compare($this->projectMinorVersion, $releaseMinorVersion) <= 0;
+            $validMinor = version_compare($this->projectMinorVersion, $releaseMinorVersion) < 0;
             if ($validMajor && $validMinor && ($_results = $this->checkRelease($release))) {
                 $results[$releaseMajorVersion][$releaseMinorVersion] = $_results;
             }
@@ -58,6 +58,11 @@ class IssueChecker
     private function checkRelease($release)
     {
         $results = [];
+
+        if (!isset($release->terms)) {
+            return $results;
+        }
+
         foreach ($release->terms->term as $term) {
             switch ((string) $term->value) {
                 case 'Security update':

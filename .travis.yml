@@ -21,7 +21,7 @@ before_script:
     - drush make --concurrency=4 ${CLONE}/${MAKE} ${CLONE}/www/
     - cd ${CLONE}
 
-script: phpunit tests/*
+script: phpunit
 
 notifications:
   email: false

@@ -24,8 +24,6 @@ projects[select_or_other][version] = "2.20"
 ; Extra API
 projects[context][version] = "3.6"
 projects[ctools][version] = "1.7"
-projects[ctools][patch][2119357] = http://www.drupal.org/files/issues/2119357-6_0.patch
-projects[ctools][patch][2416589] = http://www.drupal.org/files/issues/ctools-illegal-offset-views-add-contextual-links-2416589-1.patch
 projects[entity][version] = "1.6"
 projects[efq_views][version] = "1.0-alpha5"
 projects[remote_entity][version] = "1.0-beta6"

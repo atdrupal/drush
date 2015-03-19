@@ -22,4 +22,4 @@ libraries[backbone][download][tag] = 1.0.0
 
 libraries[underscore][download][type] = git
 libraries[underscore][download][url] = https://github.com/jashkenas/underscore.git
-libraries[underscore][download][tag] = 1.5.0
+libraries[underscore][download][tag] = 1.5.2

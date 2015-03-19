@@ -1,21 +1,19 @@
 language: php
-php:
-    - 5.4
-    - 5.5
+php: [5.4, 5.5]
 matrix:
     fast_finish: true
 env:
   - MAKE=drupal.make
   - MAKE=project-api.make
   - MAKE=project-headless.make
-before_script:
+install:
     - export CLONE=$(pwd)
+    - export PATH="$HOME/.composer/vendor/bin:$PATH"
     - cd ${CLONE}/scripts
     - composer install
-    - export PATH="$HOME/.composer/vendor/bin:$PATH"
     - composer global require drush/drush:~7.0.0-alpha1
-    - cd ${CLONE}
     - drush make --concurrency=4 ${CLONE}/${MAKE} ${CLONE}/www/
+before_script:
+    - cd ${CLONE}
 script: phpunit
-notifications:
-  email: false
+notifications: { email: false }

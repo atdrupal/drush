@@ -16,10 +16,8 @@ libraries[modernizr][download][type] = git
 libraries[modernizr][download][url] = https://github.com/BrianGilbert/modernizer-navbar.git
 libraries[modernizr][download][revision] = 5b89d9225320e88588f1cdc43b8b1e373fa4c60f
 
-libraries[backbone][download][type] = git
-libraries[backbone][download][url] = https://github.com/jashkenas/backbone.git
-libraries[backbone][download][tag] = 1.0.0
+libraries[backbone][download][type] = get
+libraries[backbone][download][url] = https://github.com/jashkenas/backbone/archive/1.1.2.tar.gz
 
-libraries[underscore][download][type] = git
-libraries[underscore][download][url] = https://github.com/jashkenas/underscore.git
-libraries[underscore][download][tag] = 1.5.2
+libraries[underscore][download][type] = get
+libraries[underscore][download][url] = https://github.com/jashkenas/underscore/archive/1.8.2.tar.gz

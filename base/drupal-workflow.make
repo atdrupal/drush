@@ -6,3 +6,4 @@ projects[drupal][version] = "7.x-dev"
 ; Modules: Workflow
 projects[maestro][version] = "1.5"
 projects[maestro_webform_task][version] = "1.0"
+projects[scheduler][version] = "1.3"

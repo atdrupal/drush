@@ -38,6 +38,9 @@ projects[composer_manager][version] = "1.x-dev"
 projects[jquery_update][version] = "2.5"
 projects[xautoload][version] = "5.1"
 projects[libraries][version] = "2.2"
+projects[gd_react][download][type] = "git"
+projects[gd_react][download][url] = "http://git.drupal.org/project/gd_react.git"
+projects[gd_react][download][branch] = "7.x-1.x"
 
 ; Performance
 projects[elements][version] = "1.x-dev"

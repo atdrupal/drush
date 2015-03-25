@@ -19,7 +19,7 @@ class DrushMakingTest extends PHPUnit_Framework_TestCase
         );
         
         if ('project-headless.make' === getenv('MAKE')) {
-            $data[] = array($dir . '/sites/all/modules/gd_react.module', 'Found gd_react module');
+            $data[] = array($dir . '/sites/all/modules/gd_react/gd_react.module', 'Found gd_react module');
         }
         
         return $data;

@@ -12,10 +12,16 @@ class DrushMakingTest extends PHPUnit_Framework_TestCase
     
     public function provideMakeResults() {
         $dir = dirname(__DIR__) . '/www';
-        return array(
+        
+        $data = array(
             array($dir . '/install.php', "Found install.php file"),
             array($dir . '/sites/all/modules/navbar/navbar.info', 'Found navbar module'),
-            array($dir . '/sites/all/modules/gd_react.module', 'Found gd_react module'),
         );
+        
+        if ('project-headless.make' === getenv('MAKE')) {
+            $data[] = array($dir . '/sites/all/modules/gd_react.module', 'Found gd_react module');
+        }
+        
+        return $data;
     }
 }

@@ -37,7 +37,4 @@ projects[panopoly_widgets][version] = "1.20"
 projects[panopoly_wysiwyg][version] = "1.20"
 
 ; Dependencies
-projects[menu_block][version] = "2.5"
-projects[media_vimeo][version] = 2.0
-projects[simple_gmap][version] = 1.2
-projects[tablefield][version] = 2.3
+projects[simple_gmap][version] = "1.2"

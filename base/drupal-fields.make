@@ -12,4 +12,4 @@ projects[date][version] = "2.8"
 projects[email][version] = "1.3"
 projects[entityreference][version] = "1.1"
 projects[link][version] = "1.3"
-
+projects[tablefield][version] = "2.3"

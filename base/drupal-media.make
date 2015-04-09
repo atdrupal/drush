@@ -3,6 +3,10 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.x-dev"
 
+projects[media][version] = "2.x-dev"
+projects[menu_block][version] = "2.5"
+projects[media_vimeo][version] = "2.0"
+
 ; Cropping images
 projects[manualcrop][version] = 1.x-dev
 projects[manualcrop][download][type] = git

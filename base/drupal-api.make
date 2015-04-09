@@ -8,6 +8,10 @@ projects[drupal][version] = "7.x-dev"
 ; ---------------------
 projects[apps][patch][2430915] = https://www.drupal.org/files/issues/apps-drush-default-apps-2430915-1.patch
 projects[apps][version] = "1.0-beta20"
+projects[defaultcontent][version] = 1.0-alpha9
+projects[defaultcontent][patch][1754428] = http://drupal.org/files/1754428-allow-node-export-alter.patch
+projects[defaultcontent][patch][1757782] = http://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch
+projects[distro_update][version] = 1.0-beta4
 projects[features][version] = "2.4"
 projects[features_override][version] = 2.0-rc2
 projects[flag][version] = "3.6"

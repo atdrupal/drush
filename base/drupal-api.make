@@ -6,11 +6,12 @@ projects[drupal][version] = "7.x-dev"
 ; ---------------------
 ; Module we can not live without
 ; ---------------------
-projects[features][version] = "2.4"
 projects[apps][patch][2430915] = https://www.drupal.org/files/issues/apps-drush-default-apps-2430915-1.patch
 projects[apps][version] = "1.0-beta20"
-projects[json2][version] = "1.1"
+projects[features][version] = "2.4"
+projects[features_override][version] = 2.0-rc2
 projects[flag][version] = "3.6"
+projects[json2][version] = "1.1"
 projects[rules][version] = "2.8"
 projects[strongarm][version] = "2.0"
 

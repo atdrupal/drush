@@ -35,3 +35,6 @@ projects[panopoly_theme][version] = "1.20"
 projects[panopoly_users][version] = "1.20"
 projects[panopoly_widgets][version] = "1.20"
 projects[panopoly_wysiwyg][version] = "1.20"
+
+; Dependencies
+projects[menu_block][version] = "2.5"

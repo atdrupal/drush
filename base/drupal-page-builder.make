@@ -37,4 +37,5 @@ projects[panopoly_widgets][version] = "1.20"
 projects[panopoly_wysiwyg][version] = "1.20"
 
 ; Dependencies
+projects[radix_layouts][version] = 3.3
 projects[simple_gmap][version] = "1.2"

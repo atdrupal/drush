@@ -15,7 +15,6 @@ projects[radix_admin][version] = "3.x-dev"
 projects[radix_admin][type] = "theme"
 projects[radix_admin][subdir] = "contrib"
 
-
 ; Responsive Javascript
 projects[respondjs][version] = 1.4
 libraries[respondjs][download][type] = git

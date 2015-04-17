@@ -8,7 +8,8 @@ projects[responsive_bartik][type] = theme
 ; Themes
 projects[ember][version] = "2.x-dev"
 projects[ember][type] = "theme"
-projects[ember][patch][2472133] = "http://drupal.org/files/issues/panopoly_add_to-2472133-1.patch"
+projects[ember_support][version] = "1.0-alpha4"
+projects[ember_support][patch][2472133] = "http://drupal.org/files/issues/panopoly_add_to-2472133-1.patch"
 
 ; Radix admin theme
 projects[radix_admin][version] = "3.x-dev"

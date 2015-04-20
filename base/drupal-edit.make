@@ -6,6 +6,7 @@ projects[drupal][version] = "7.x-dev"
 ; Modules
 projects[caption_filter][version] = 1.x-dev
 projects[ckeditor][version] = "1.16"
+projects[diff][version] = "3.2"
 projects[imce][version] = "1.9"
 projects[image_resize_filter][version] = "1.14"
 projects[linkit][version] = "3.3"

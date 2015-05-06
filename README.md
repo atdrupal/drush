@@ -1,6 +1,6 @@
 ## Drush make [![Build Status](https://travis-ci.org/atdrupal/make.svg)](https://travis-ci.org/atdrupal/make)
 
-This project provide base make files for your Drupal projects.
+This project provides base make files for your Drupal projects.
 
     git clone https://github.com/atdrupal/make.git drupal-make
 
@@ -10,3 +10,5 @@ This project provide base make files for your Drupal projects.
     # Remake
     cd drupal-make
     drush make --concurrency=5 ../drupal-make/drupal.make .
+
+Check [official documentation](http://www.drush.org/en/master/make/) for Drush make to know what it's, the make file syntax, …

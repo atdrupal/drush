@@ -32,6 +32,12 @@ class SecurityIssuesTest extends PHPUnit_Framework_TestCase
             $isSelfHosted = isset($project['download']);
             if ($isNotLibrary && !$isSelfHosted) {
                 $this->assertArrayHasKey('version', $project, "Version is specified for project {$name}.");
+
+                // null mean latest release
+                if (null === $project['version']) {
+                    continue;
+                }
+
                 $version = str_replace('7.x-', '', $project['version']);
                 if (!strpos('.x-dev', $version)) {
                     list($major, $minor) = explode('.', $version);

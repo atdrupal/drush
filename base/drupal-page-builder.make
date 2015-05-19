@@ -25,16 +25,16 @@ projects[radix][version] = "3.0-rc2"
 projects[radix_layouts][version] = "3.3"
 
 ; Panopoly
-projects[panopoly_admin][version] = "1.20"
-projects[panopoly_core][version] = "1.20"
-projects[panopoly_images][version] = "1.20"
-projects[panopoly_magic][version] = "1.20"
-projects[panopoly_pages][version] = "1.20"
-projects[panopoly_search][version] = "1.20"
-projects[panopoly_theme][version] = "1.20"
-projects[panopoly_users][version] = "1.20"
-projects[panopoly_widgets][version] = "1.20"
-projects[panopoly_wysiwyg][version] = "1.20"
+projects[panopoly_admin][version] = "1.21"
+projects[panopoly_core][version] = "1.21"
+projects[panopoly_images][version] = "1.21"
+projects[panopoly_magic][version] = "1.21"
+projects[panopoly_pages][version] = "1.21"
+projects[panopoly_search][version] = "1.21"
+projects[panopoly_theme][version] = "1.21"
+projects[panopoly_users][version] = "1.21"
+projects[panopoly_widgets][version] = "1.21"
+projects[panopoly_wysiwyg][version] = "1.21"
 
 ; Dependencies
 projects[radix_layouts][version] = 3.3

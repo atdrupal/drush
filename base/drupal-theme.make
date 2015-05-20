@@ -6,6 +6,7 @@ projects[responsive_bartik][version] = 1.0
 projects[responsive_bartik][type] = theme
 
 ; Themes
+projects[corolla][version] = "3.0"
 projects[ember][version] = "2.x-dev"
 projects[ember][type] = "theme"
 projects[ember_support][version] = "1.0-alpha4"

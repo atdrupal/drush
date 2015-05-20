@@ -1,8 +1,11 @@
 api = 2
 core = 7.x
 
+; Theming tools
+projects[css_injector][version] = "1.10"
+
 ; Responsive Bartik theme
-projects[responsive_bartik][version] = 1.0
+projects[responsive_bartik][version] = "1.0"
 projects[responsive_bartik][type] = theme
 
 ; Themes

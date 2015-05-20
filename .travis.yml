@@ -6,6 +6,7 @@ env:
   - MAKE=drupal.make
   - MAKE=project-api.make
   - MAKE=project-headless.make
+  - MAKE=project-blog.make
 install:
     - export CLONE=$(pwd)
     - export PATH="$HOME/.composer/vendor/bin:$PATH"

@@ -39,3 +39,9 @@ projects[panopoly_wysiwyg][version] = "1.21"
 ; Dependencies
 projects[radix_layouts][version] = 3.3
 projects[simple_gmap][version] = "1.2"
+
+; For manualcrop module
+libraries[jquery.imagesloaded][download][type] = get
+libraries[jquery.imagesloaded][download][url] = https://github.com/desandro/imagesloaded/archive/v2.1.2.tar.gz
+libraries[jquery.imgareaselect][download][type] = get
+libraries[jquery.imgareaselect][download][url] = http://odyniec.net/projects/imgareaselect/jquery.imgareaselect-0.9.10.zip

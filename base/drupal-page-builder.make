@@ -12,10 +12,7 @@ projects[panels_breadcrumbs][version] = 2.2
 
 ; Modules: Easier page builder
 projects[fape][version] = 1.2
-projects[fieldable_panels_panes][patch][2146479] = http://www.drupal.org/files/issues/2146479-admin-menu-map-conflict.patch
-projects[fieldable_panels_panes][patch][2256503] = http://www.drupal.org/files/issues/fieldable_panels_panes-n2256503-12-backport-fpp15.patch
-projects[fieldable_panels_panes][patch][2283263] = http://drupal.org/files/issues/fieldable_panels_panes-n2283263-5.patch
-projects[fieldable_panels_panes][version] = "1.5"
+projects[fieldable_panels_panes][version] = "1.6"
 projects[gridbuilder][version] = "1.x-dev"
 projects[pm_existing_pages][version] = "1.4"
 

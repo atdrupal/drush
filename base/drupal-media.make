@@ -6,8 +6,8 @@ projects[drupal][version] = "7.x-dev"
 projects[file_entity][version] = "2.x-dev"
 projects[media][version] = "2.x-dev"
 projects[menu_block][version] = "2.5"
-projects[media_vimeo][version] = "2.0"
-projects[media_youtube][version] = "2.x-dev"
+projects[media_vimeo][version] = "2.1"
+projects[media_youtube][version] = "3.0"
 
 ; Cropping images
 projects[manualcrop][version] = 1.x-dev

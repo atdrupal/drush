@@ -10,6 +10,7 @@ projects[devel_contrib][version] = "1.0"
 projects[devel_themer][version] = "1.x-dev"
 projects[ftools][version] = "2.x-dev"
 projects[hacked][version] = "2.x-dev"
+projects[masquerade][version] = "1.0-rc7"
 projects[schema][version] = "1.x-dev"
 
 ; Must use 1.12 for devel_themer

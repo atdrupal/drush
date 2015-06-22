@@ -8,6 +8,7 @@ env:
   - MAKE=project-headless.make
   - MAKE=project-blog.make
 install:
+    - composer selfupdate
     - export CLONE=$(pwd)
     - export PATH="$HOME/.composer/vendor/bin:$PATH"
     - cd ${CLONE}/scripts

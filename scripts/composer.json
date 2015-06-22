@@ -3,7 +3,7 @@
     "guzzlehttp/guzzle": "~5.0",
     "symfony/console": "~2.6.0",
     "symfony/var-dumper": "~2.6.0",
-    "drush/make-parser": "1.*@dev"
+    "drush/make-parser": "~0.1.0"
   },
   "autoload": {
     "psr-4": {

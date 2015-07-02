@@ -4,6 +4,7 @@ api = 2
 projects[drupal][version] = "7.x-dev"
 
 ; Modules: For developers
+projects[cache_debug][version] = "1.0-alpha1"
 projects[coder][version] = "2.4"
 projects[devel][version] = "1.5"
 projects[devel_contrib][version] = "1.0"

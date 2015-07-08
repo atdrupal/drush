@@ -13,6 +13,6 @@ includes[themes]       = "base/drupal-theme.make"
 ; Custom setup for this project
 projects[restful][version] = "1.x-dev"
 prjoects[oauth][version] = "3.2"
-projects[restws][version] = "2.3"
+projects[restws][version] = "2.4"
 projects[services][version] = "3.12"
 projects[services_documentation][version] = "1.4"

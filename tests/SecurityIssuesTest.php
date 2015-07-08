@@ -13,6 +13,10 @@ class SecurityIssuesTest extends PHPUnit_Framework_TestCase
             foreach ($minorVersions as $minorVersion => $issues) {
                 $hasSecurityIssue = in_array(IssueChecker::STATUS_SECURITY, $issues);
                 $this->assertTrue(!$hasSecurityIssue, "{$name} {$major}.{$minor} doesn't have any security issue.");
+                
+                if (in_array(IssueChecker::STATUS_BUG_FIX, $issues)) {
+                    $this->markTestSkipped("{$name} {$major}.{$minor} has bug fix release.");
+                }
             }
         }
     }

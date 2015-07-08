@@ -17,5 +17,5 @@ install:
     - drush make --no-recursion --concurrency=4 ${CLONE}/${MAKE} ${CLONE}/www/
 before_script:
     - cd ${CLONE}
-script: phpunit
+script: phpunit -v
 notifications: { email: false }

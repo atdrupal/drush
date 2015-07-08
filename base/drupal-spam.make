@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.x-dev"
 
-projects[captcha][version] = "1.2"
+projects[captcha][version] = "1.3"
 projects[honeypot][version] = "1.17"
 
 ; projects[hidden_captcha][version] = "1.0"

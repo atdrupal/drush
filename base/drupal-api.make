@@ -17,7 +17,7 @@ projects[features_override][version] = 2.0-rc2
 projects[flag][version] = "3.6"
 projects[json2][version] = "1.1"
 projects[message][version] = "1.10"
-projects[rules][version] = "2.8"
+projects[rules][version] = "2.9"
 projects[strongarm][version] = "2.0"
 
 ; Mail

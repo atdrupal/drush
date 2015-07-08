@@ -20,7 +20,7 @@ projects[radix_admin][version] = "3.x-dev"
 projects[radix_admin][type] = "theme"
 
 ; Responsive Javascript
-projects[respondjs][version] = 1.4
+projects[respondjs][version] = 1.5
 libraries[respondjs][download][type] = git
 libraries[respondjs][download][url] = https://github.com/scottjehl/Respond.git
 libraries[respondjs][download][revision] = 86dea4ab1e93a275e2044965ab7452c3c1e2c6da

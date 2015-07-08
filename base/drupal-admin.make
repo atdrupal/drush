@@ -5,7 +5,7 @@ projects[drupal][version] = "7.x-dev"
 
 ; Modules: Admin
 projects[advanced_help][version] = "1.3"
-projects[backup_migrate][version] = "3.0"
+projects[backup_migrate][version] = "3.1"
 projects[date_popup_authored][version] = "1.2"
 projects[module_filter][version] = "2.0"
 projects[navbar][version] = "1.6"

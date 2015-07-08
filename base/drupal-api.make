@@ -26,7 +26,7 @@ projects[smtp][version] = "1.2"
 
 ; Form
 projects[options_element][version] = "1.12"
-projects[select_or_other][version] = "2.20"
+projects[select_or_other][version] = "2.22"
 
 ; Extra API
 projects[context][version] = "3.6"

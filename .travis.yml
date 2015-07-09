@@ -4,6 +4,7 @@ matrix:
     fast_finish: true
 env:
   - MAKE=drupal.make
+  - MAKE=project-test.make
   - MAKE=project-api.make
   - MAKE=project-headless.make
   - MAKE=project-blog.make

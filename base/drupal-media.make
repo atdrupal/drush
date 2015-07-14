@@ -5,7 +5,7 @@ projects[drupal][version] = "7.x-dev"
 
 projects[file_entity][version] = "2.x-dev"
 projects[media][version] = "2.x-dev"
-projects[menu_block][version] = "2.5"
+projects[menu_block][version] = "2.7"
 projects[media_vimeo][version] = "2.1"
 projects[media_youtube][version] = "3.0"
 

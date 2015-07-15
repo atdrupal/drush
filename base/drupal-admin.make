@@ -9,6 +9,7 @@ projects[backup_migrate][version] = "3.1"
 projects[date_popup_authored][version] = "1.2"
 projects[module_filter][version] = "2.0"
 projects[navbar][version] = "1.6"
+projects[navbar][patch][2481207] = "https://www.drupal.org/files/issues/dropdown_for_navbar-2481207-3.patch"
 projects[save_draft][version] = 1.4
 
 ; Libraries

@@ -7,6 +7,7 @@ projects[drupal][version] = "7.x-dev"
 includes[core]         = "base/drupal-core.make"
 includes[admin]        = "base/drupal-admin.make"
 includes[api]          = "base/drupal-api.make"
+includes[api]          = "base/drupal-dev.make"
 includes[performance]  = "base/drupal-performance.make"
 includes[themes]       = "base/drupal-theme.make"
 

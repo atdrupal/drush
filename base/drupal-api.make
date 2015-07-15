@@ -45,7 +45,7 @@ projects[votingapi][version] = "2.12"
 ; Modern tech integration
 projects[composer_manager][version] = "1.x-dev"
 projects[jquery_update][version] = "2.6"
-projects[xautoload][version] = "5.1"
+projects[xautoload][version] = "5.2"
 projects[libraries][version] = "2.2"
 projects[gd_react][download][type] = "git"
 projects[gd_react][download][url] = "http://git.drupal.org/project/gd_react.git"

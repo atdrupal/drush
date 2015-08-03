@@ -24,6 +24,7 @@ projects[mimemail][version] = "1.0-beta3"
 projects[smtp][version] = "1.2"
 
 ; Form
+projects[entityreference_prepopulate][version] = "1.5"
 projects[options_element][version] = "1.12"
 projects[prepopulate][version] = "2.0"
 projects[select_or_other][version] = "2.22"

@@ -3,6 +3,7 @@ core = 7.x
 
 ; Theming tools
 projects[css_injector][version] = "1.10"
+projects[skinr][version] = "2.0"
 
 ; Responsive Bartik theme
 projects[responsive_bartik][version] = "1.0"

@@ -25,6 +25,7 @@ projects[smtp][version] = "1.2"
 
 ; Form
 projects[options_element][version] = "1.12"
+projects[prepopulate][version] = "2.0"
 projects[select_or_other][version] = "2.22"
 
 ; Extra API

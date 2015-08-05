@@ -18,7 +18,7 @@ projects[pm_existing_pages][version] = "1.4"
 
 ; Layouts
 projects[layout][version] = "1.x-dev"
-projects[radix][version] = "3.0-rc2"
+projects[radix][version] = "3.0-rc4"
 projects[radix_layouts][version] = "3.4"
 
 ; Panopoly

@@ -20,7 +20,7 @@ projects[rules][version] = "2.9"
 projects[strongarm][version] = "2.0"
 
 ; Mail
-projects[mimemail][version] = "1.0-beta3"
+projects[mimemail][version] = "1.0-beta4"
 projects[smtp][version] = "1.2"
 
 ; Form

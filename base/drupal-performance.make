@@ -14,7 +14,7 @@ projects[memcache][version] = "1.5"
 projects[pathcache][version] = "1.x-dev"
 projects[purge][version] = "1.x-dev"
 projects[queue_mail][version] = "1.3"
-projects[redis][version] = "3.8"
+projects[redis][version] = "3.9"
 projects[views_content_cache][version] = "3.x-dev"
 
 ; Amazon webservices

@@ -5,6 +5,7 @@ projects[drupal][version] = "7.x-dev"
 
 projects[facetapi][version] = "1.5"
 projects[search_api][version] = "1.15"
+projects[search_api_autocomplete][version] = "1.3"
 projects[search_api_db][version] = "1.4"
 projects[search_api_solr][version] = "1.8"
 projects[search_facetapi][version] = "1.0-beta2"

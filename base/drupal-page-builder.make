@@ -12,7 +12,7 @@ projects[panels_breadcrumbs][version] = 2.2
 
 ; Modules: Easier page builder
 projects[fape][version] = 1.2
-projects[fieldable_panels_panes][version] = "1.6"
+projects[fieldable_panels_panes][version] = "1.7"
 projects[gridbuilder][version] = "1.x-dev"
 projects[pm_existing_pages][version] = "1.4"
 

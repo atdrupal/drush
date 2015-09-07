@@ -11,7 +11,7 @@ projects[webform_fivestar][version] = "1.0"
 
 ; Modules: Extra
 projects[contact_google_analytics][version] = "1.4"
-projects[form_builder][version] = "1.12"
+projects[form_builder][version] = "1.13"
 
 ; Mailchimp integration
 projects[mailchimp][version] = "3.4"

@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.x-dev"
 
-projects[password_policy][version] = "1.11"
+projects[password_policy][version] = "1.12"
 projects[flood_control][version] = "1.0"
 projects[login_security][version] = "1.9"
 projects[username_enumeration_prevention][version] = "1.1"

@@ -59,7 +59,7 @@ projects[elysia_cron][version] = "2.1"
 
 ; Views
 projects[views][version] = "3.13"
-projects[views][patch][2037469] = http://drupal.org/files/views-exposed-sorts-2037469-1.patch
+projects[views][patch][2037469] = "https://www.drupal.org/files/issues/views-exposed-sorts-2037469-12.patch"
 
 ; Views: Extras
 projects[radix_views][version] = "1.x-dev"

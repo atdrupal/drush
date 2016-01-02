@@ -16,6 +16,10 @@ install:
     - composer install
     - composer global require drush/drush:~7.0.0-alpha1
     - drush make --no-recursion --concurrency=4 ${CLONE}/${MAKE} ${CLONE}/www/
+cache:
+  directories:
+  - ~/.drush/cache
+  - ~/.composer/cache
 before_script:
     - cd ${CLONE}
 script: phpunit -v

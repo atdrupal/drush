@@ -8,8 +8,8 @@ projects[field_group][version] = "1.4"
 projects[field_collection][version] = "1.x-dev"
 
 ; Extra fields
-projects[addressfield][version] = "1.1"
-projects[date][version] = "2.8"
+projects[addressfield][version] = "1.2"
+projects[date][version] = "2.9"
 projects[email][version] = "1.3"
 projects[entityreference][version] = "1.1"
 projects[link][version] = "1.3"

@@ -13,7 +13,7 @@ projects[defaultcontent][patch][1757782] = http://drupal.org/files/1757782-canno
 projects[distro_update][version] = 1.0-beta4
 projects[features][version] = "2.6"
 projects[features_override][version] = 2.0-rc3
-projects[flag][version] = "3.6"
+projects[flag][version] = "3.7"
 projects[json2][version] = "1.1"
 projects[message][version] = "1.10"
 projects[rules][version] = "2.9"
@@ -21,7 +21,7 @@ projects[strongarm][version] = "2.0"
 
 ; Mail
 projects[mimemail][version] = "1.0-beta4"
-projects[smtp][version] = "1.2"
+projects[smtp][version] = "1.3"
 
 ; Form
 projects[entityreference_prepopulate][version] = "1.5"

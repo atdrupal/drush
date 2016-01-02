@@ -14,7 +14,7 @@ projects[contact_google_analytics][version] = "1.4"
 projects[form_builder][version] = "1.13"
 
 ; Mailchimp integration
-projects[mailchimp][version] = "3.4"
+projects[mailchimp][version] = "3.6"
 libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
 libraries[mailchimp][directory_name] = "mailchimp"

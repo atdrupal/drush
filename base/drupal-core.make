@@ -8,7 +8,7 @@ projects[drupal][version] = 7.34
 ; CORE PATCHES
 
 ; Force settings.php to include local.settings.php
-projects[drupal][patch][pull-39] = 'https://github.com/drupal/drupal/pull/39.diff'
+projects[drupal][patch][pull-55] = 'https://github.com/drupal/drupal/pull/55.diff'
 
 ; Raise minimum PHP version to work around core requirements check bug.
 ; Keep eyeballs posted on http://drupal.org/node/1724130.

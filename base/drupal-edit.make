@@ -5,13 +5,13 @@ projects[drupal][version] = "7.x-dev"
 
 ; Modules
 projects[caption_filter][version] = 1.x-dev
-projects[ckeditor][version] = "1.16"
+projects[ckeditor][version] = "1.17"
 projects[diff][version] = "3.2"
 projects[imce][version] = "1.9"
 projects[image_resize_filter][version] = "1.16"
 projects[linkit][version] = "3.4"
 projects[markdown][version] = "1.2"
-projects[quickedit][version] = "1.2"
+projects[quickedit][version] = "1.4"
 projects[quickedit][patch][2320461] = "https://www.drupal.org/files/issues/edit_not_working_with-2320461-13.patch"
 projects[quickedit_tab][version] = "1.1"
 projects[wysiwyg][version] = "2.x-dev"
